@@ -2,6 +2,7 @@ package vortex
 
 import ratpack.guice.Guice
 import ratpack.server.RatpackServer
+import ratpack.websocket.WebSockets
 import vortex.Services.AgentHandler
 import vortex.Services.RequestHandler
 import vortex.config.ConfigModule
