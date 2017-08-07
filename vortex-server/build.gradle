@@ -1,0 +1,15 @@
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
+    }
+}
+
+apply from: "$rootDir/gradle/base-build.gradle"
+apply plugin: 'com.github.johnrengelman.shadow'
+
+mainClassName = 'vortex.ServerAppKt'

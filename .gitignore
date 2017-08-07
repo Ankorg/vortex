@@ -1,0 +1,9 @@
+.gradle/
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+build/
+vortex-agent/build/
+vortex-server/build/

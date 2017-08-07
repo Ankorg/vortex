@@ -1,0 +1,4 @@
+
+include 'vortex-server', 'vortex-agent'
+
+rootProject.name = 'vortex'
